@@ -1,0 +1,25 @@
+Blog Api
+
+ Register user - Model (email, name , password)
+ hash users password (moongoose middleware)
+ generate toke (nongoose instance methods)
+ send response with the token
+
+ Login users
+ email and password validation
+ find user\compare password(if correct -> generate token)
+
+ Generating proper jwt secret
+ All Keys Generatorhttps://www.allkeysgenerator.com
+
+
+ Authentication middleware
+ Authorization: Bearer token
+ get token from req.headers
+ verify token
+
+ Error handling 
+
+ CRUD OPERATIONS for Blog 
+ schema connection
+ Crud
